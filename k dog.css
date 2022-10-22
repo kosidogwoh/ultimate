@@ -1,0 +1,66 @@
+body{
+    font-family: cursive;
+  }
+  
+  .header {
+    background-color: #f1f3f5;
+    border-top: 5px solid #1098ad;
+  }
+  
+  .heading-one {
+    color: #1098ad;
+  }
+  
+  a {
+    color: #1098ad;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  .heading-two {
+    color: #1098ad;
+  }
+  .section1-name {
+    font-weight: 700;
+  }
+  
+  .heading-three {
+    color: #1098ad;
+  }
+  
+  .related-post {
+    text-align: center;
+  }
+  
+  .aside {
+    background-color: #f1f3f5;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+  }
+  
+  li:first-child{
+    font-weight: bolder;
+  }
+  
+  li:last-child{
+    text-transform: italic;
+  }
+  
+  .year {
+    font-weight: 600;
+  }
+  
+  /* This is the new CSS properties that i just learnt and it works like magic 
+  
+  :where(header, main) a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  */
+  
+  
